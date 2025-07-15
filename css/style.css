@@ -5,8 +5,10 @@
 }
 
 body{
-  background-color: rgb(246, 248, 250);
+  background-color: #f6f8fa;
 }
+
+/* Styling header content */
 
 #text-logo{
   font-size: 40px;
@@ -33,22 +35,73 @@ body{
   margin: 4% auto;
   width: 70%;
   background-color: white;
+  border-radius: 10px;
 }
 
+/* Styling button of main content */
 .container-btn{
   padding-top: 2%;
   padding-bottom: 1%;
   padding-left: 5%;
+  border-bottom: 2px solid #f6f8fa;
 }
-.container-btn button{
-  border: none;
-}
+
 #btn-add{
   background-color: rgb(69, 174, 241);
+  padding: 7px 12px;
+  border-radius: 10px;
+  color: white;
+  margin-right: 3px;
+  border: none;
+  border-radius: 6px;
 
 }
 
 #btn-select{
   background-color: white;
+  padding: 7px 12px;
+  border: 1px solid  rgb(175, 173, 173);
+  color:  rgb(175, 173, 173);
+  border-radius: 5px;
+}
 
+/* Styling main content */
+
+.container-all-content{
+  margin: 2% 0;
+  padding-left: 5%;
+}
+
+#title-action{
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.container-new-task{
+  margin-top: 10px;
+}
+
+/* Checkmark */
+.check-mark{
+  font-size: 10px;
+  color: green;
+  border: 2px solid green;
+  padding: 4px 6px;
+  border-radius: 100px;
+}
+
+.task-info-style{
+  margin-left: 5px;
+  font-size: 18px;
+  color: rgb(62, 62, 62);
+}
+
+/* Label Editorial */
+.editorial-label{
+  font-size: 12px;
+  margin-left: 5px;
+  color: white;
+  background-color: rgb(69, 174, 241);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
