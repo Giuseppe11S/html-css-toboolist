@@ -32,8 +32,9 @@ body{
 }
 
 .container-main{
-  margin: 4% auto;
+  margin: 3% auto;
   width: 70%;
+  height: 650px;
   background-color: white;
   border-radius: 10px;
 }
@@ -100,10 +101,10 @@ body{
 
 /* preset del titolo delle task */
 .task-info-style{
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 5px;
   font-size: 18px;
-  color: rgb(62, 62, 62);
+  color: rgb(73, 74, 76);
 }
 
 /* Preset dei label */
@@ -142,6 +143,6 @@ body{
 
 /* Styling Today parte delle task */
 
-.container-task-today{
+.container-task-today, .container-task-upcoming{
   margin-top: 3%;
 }
